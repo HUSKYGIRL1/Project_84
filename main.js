@@ -1,4 +1,4 @@
-canvas=document.getElementById("myCanvas");
+canvas=document.getElementById('myCanvas');
 ctx=canvas.getContext("2d");
 img_width = 300;
 img_height = 100;
@@ -48,19 +48,19 @@ function numberkey()
 	img_image="numkey.png";
 	add();
 }
-}
+
 function arrowkey()
 {
 	img_image="Arrkey.png";
 	add();
 }
-}
+
 function specialkey()
 {
 	img_image="spkey.png";
 	add();
 }
-}
+
 function otherkey()
 {
 	img_image="otherkey.png";
